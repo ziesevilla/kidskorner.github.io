@@ -1,0 +1,320 @@
+
+
+
+/* 
+    General Styling
+*/
+
+* {
+    padding: 0%;
+    margin: 0%;
+    color: #533926;
+}
+
+body  {
+    background-color: #ece1d0;
+}
+
+.sec {
+    height: 100vh;
+}
+
+.center {
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+}
+
+
+/*
+    Section 1: Header
+*/
+
+/*Navbar Start*/
+#head nav {
+    height: 10vh;
+    background-color: #f8f4f4f4;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+#logo {
+    padding: 17px 65px;
+}
+
+
+nav ul li {
+    list-style-type: none;
+    color: #533926;
+}
+
+nav ul {
+    text-decoration: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav ul a {
+    text-decoration: none;
+    float: right;
+    text-align: center;
+    padding: 14px 16px;
+}
+
+#head-nav img {
+    height: 50px;
+    width: 50px;
+}
+
+a.category{
+    padding: 30px 25px;
+}
+
+a.category:hover {
+    background-color: #ece1d0;
+}
+
+#head-nav ul a.page {
+    padding: 15px 30px;
+}
+/* Navbar End*/
+
+/* Header Content Start */
+.main-head {
+    position: relative;
+    text-align: right;
+}
+
+.head-image {
+    width: 55%;
+    height: 90vh;
+    opacity: 77%;
+}
+
+.head-text {
+    position: absolute;
+    top: 50%;
+    left: 20%;
+    transform: translate(-50%, -50%);
+    color: #533926;
+    padding: 20px;
+}
+
+.head-text h1 {
+    margin: 0;
+    font-size: 100px;
+    text-align: left;
+    letter-spacing: 5px;
+    word-spacing: 7px;
+}
+
+.shop-button {
+    border: #533926 2px solid;
+    padding: 15px;
+    border-radius: 35%;
+}
+
+.shop-button:hover {
+    padding: 15px;
+    background-color: #533926;
+    color: #f8f4f4f4;
+}
+
+a.shop-button {
+    text-decoration: none;
+    color: #533926;
+}
+
+
+/* 
+    Section 2: Fashion Section 
+*/
+#fashion img {
+    opacity: 77%;
+}
+
+#fashion {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+}
+
+#b-fashion {
+    text-align: left;
+}
+
+#g-fashion {
+    text-align: right;
+}
+
+#fashion-content {
+    text-align: center;
+    padding-top: 250px;
+    padding-left: 75px;
+}
+
+#fashion-content h1{
+    font-size: 100px;
+    color: #533926;
+}
+
+
+/* 
+    Section 3: School
+*/
+
+#school-img {
+    opacity: 77%;
+}
+
+#school-content {
+    position: absolute;
+    top: 275%;
+    left: 40%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    text-align: left;
+    color: #533926;
+}
+
+#school-content h1{
+    font-size: 100px;
+}
+
+
+
+/*
+    Section 4: Toys
+*/
+
+#toys-content {
+    position: absolute;
+    top: 350%;
+    left: 70%;
+    transform: translate(-50%, -50%);
+    padding: 10px;
+    text-align: left;
+    color: #533926;
+}
+
+#toys-content h1 {
+    font-size: 120px;
+    text-align: center;
+}
+
+#toys-content .shop-button {
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#toys img {
+    opacity: 77%;
+}
+
+/*
+    Section 5: Body
+*/
+#body-content {
+    position: absolute;
+    top: 465%;
+    left: 25%;
+    transform: translate(-50%, -50%);
+    padding: 10px;
+    text-align: left;
+    color: #533926;
+}
+
+#body-content h1{
+    font-size: 100px;
+}
+
+#body-img {
+    opacity: 77%;
+}
+
+/* 
+    Last Section 
+*/
+
+#logo-about {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+#about-top {
+    padding-top: 150px;
+}
+
+
+#about-tagline {
+    text-align: center;
+    word-spacing: 15px;
+    letter-spacing: 5px;
+    font-size: x-large;
+}
+
+#buttons-about a:hover{
+    background-color: #f8f4f4f4;
+}
+
+#buttons-about a{
+    text-decoration: none;
+    color: #533926;
+}
+
+#buttons-about {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+}
+
+.button-about {
+    border:#533926 solid 1px;
+    padding: 10px 50px;
+}
+
+#about-links a {
+    color: #533926;
+}
+
+#about-links img {
+    width: 50px;
+    height: 50px;
+}
+
+#about-links {
+    background-color: #f8f4f4f4;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+#about-links p, #about-links img {
+    padding: 10px 25px;
+}
+
+#about-links p {
+    padding: 25px 50px;
+}
+
+#about-desc {
+    padding: 50px;
+    max-width: 400px;
+    font-size:large;
+}
+
+#about-desc p{
+    text-align:justify;
+    letter-spacing: 3px;
+    word-spacing: 5px;
+}
+
+#copyright p {
+    text-align: center;
+    padding: 15px;
+}

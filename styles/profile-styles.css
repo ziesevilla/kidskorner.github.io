@@ -1,0 +1,100 @@
+#profile {
+    background-color: #ECE1D0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    background-color: #ECE1D0;
+    padding: 20px;
+    width: 50%;
+    max-width: 800px;
+    margin: auto;
+}
+
+h1{
+    font-size: 50px;
+}
+
+
+h1, p {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #7c5238;
+}
+
+.form-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    color: #7c5238;
+}
+
+.form-group input,
+.form-group select {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.form-left,
+.form-right {
+    width: 45%;
+}
+
+.form-right {
+    text-align: center;
+}
+
+.form-right img {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 10px;
+}
+
+.form-right p {
+    margin: 0;
+    font-size: 12px;
+    color: #7c5238;
+}
+
+.form-right input[type="file"] {
+    margin-top: 10px;
+    padding-left: 20px;
+}
+
+.save-button {
+    display: block;
+    width: 35%;
+    margin: auto;
+    padding: 10px;
+    background-color: #7c5238;
+    color: #fff;
+    border: 35px;
+    border-radius: 4px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.save-button:hover {
+    background-color: #5e3f2a;
+}
+
+hr {
+    border: none;
+    border-top: 3px solid #5e3f2a;
+    margin: 20px 0;
+}

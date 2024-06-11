@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KidsKorner | Checkout</title>
+    <link rel="stylesheet" href="styles/checkout-styles.css">
+    <link rel="stylesheet" href="styles/home-styles.css">
+</head>
+<body>
+    <section class="sec" id="head">
+        <nav id="head-nav">
+            <a href="index.html">
+                <img src="images/home/logo.png" id="logo" alt="KidsKorner Logo" style="height: 50px; width: 200px;">
+            </a>
+            <ul>
+                <a href="fashion.html" class="category">
+                    <li>FASHION</li>
+                </a>
+                <a href="school.html" class="category">
+                    <li>SCHOOL</li>
+                </a>
+                <a href="toys.html" class="category">
+                    <li>TOYS</li>
+                </a>
+                <a href="body.html" class="category">
+                    <li>BODY</li>
+                </a>
+                <a href="#copyright" class="category">
+                    <li>ABOUT US</li>
+                </a>
+                <a href="checkout.html" class="page">
+                    <li><img src="images/home/checkout.png" alt="Checkout Logo"></li>
+                </a>
+                <a href="cart.html" class="page">
+                    <li><img src="images/home/cart.png" alt="Checkout Logo"></li>
+                </a>
+                <a href="profile.html" class="page">
+                    <li><img src="images/home/profile.png" alt="Checkout Logo"></li>
+                </a>
+            </ul>
+        </nav>
+
+        <section class="sec" id="check">
+            <div class="check-container">
+                <h1>Checkout</h1>
+                <table class="check-table">
+                    <thead>
+                        <tr>
+                            <th>Product Image</th>
+                            <th>Product Name</th>
+                            <th>Price</th>
+                            <th>Quantity</th>
+                            <th>Total</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>
+                                <img src="images/cart/checkered-dress.jpg" alt="Checkered Dress">
+                            </td>
+                            <td>
+                                <div>Checkered Dress<br><span class="category">FASHION</span></div>
+                            </td>
+                            <td class="price">Php 300.00</td>
+                            <td>
+                                <button onclick="decreaseQuantity(this)">-</button>
+                                <span class="quantity">1</span>
+                                <button onclick="increaseQuantity(this)">+</button>
+                            </td>
+                            <td class="total-price">Php 300.00</td>
+                        </tr>
+
+                        <tr>
+                            <td>
+                                <img src="images/cart/2-d-blue-bag.jpg" alt="2-D Blue Bag">
+                            </td>
+                            <td>
+                                <div>2-D Blue Bag<br><span class="category">SCHOOL</span></div>
+                            </td>
+                            <td class="price">Php 750.00</td>
+                            <td>
+                                <button onclick="decreaseQuantity(this)">-</button>
+                                <span class="quantity">1</span>
+                                <button onclick="increaseQuantity(this)">+</button>
+                            </td>
+                            <td class="total-price">Php 750.00</td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <img src="images/cart/facial-wash.jpg" alt="Facial Wash">
+                            </td>
+                            <td>
+                                <div>Facial Wash<br><span class="category">BODY</span></div>
+                            </td>
+                            <td class="price">Php 370.00</td>
+                            <td>
+                                <button onclick="decreaseQuantity(this)">-</button>
+                                <span class="quantity">1</span>
+                                <button onclick="increaseQuantity(this)">+</button>
+                            </td>
+                            <td class="total-price">Php 370.00</td>
+                        </tr>
+
+                        <tr>
+                            <td>
+                                <img src="images/cart/semi-formal-do.jpg" alt="Semi-Formal Do">
+                            </td>
+                            <td>
+                                <div>Semi-Formal Do<br><span class="category">FASHION</span></div>
+                            </td>
+                            <td class="price">Php 450.00</td>
+                            <td>
+                                <button onclick="decreaseQuantity(this)">-</button>
+                                <span class="quantity">1</span>
+                                <button onclick="increaseQuantity(this)">+</button>
+                            </td>
+                            <td class="total-price">Php 450.00</td>
+                        </tr>
+
+                        <tr>
+                            <td>
+                                <img src="images/cart/cute-pony-toy.jpg" alt="Cute Pony Toy">
+                            </td>
+                            <td>
+                                <div>Cute Pony Toy<br><span class="category">TOYS</span></div>
+                            </td>
+                            <td class="price">Php 300.00</td>
+                            <td>
+                                <button onclick="decreaseQuantity(this)">-</button>
+                                <span class="quantity">1</span>
+                                <button onclick="increaseQuantity(this)">+</button>
+                            </td>
+                            <td class="total-price">Php 300.00</td>
+                        </tr>
+                    </tbody>
+                </table>
+
+                <br><br><br><hr class="divider">
+
+                <div class="check-details">
+                    <div class="check-details-section">
+                        <h2 class="check-details-section-header">Delivery Info</h2>
+                        <p class="check-details-section-text"><i>See our delivery and return policy <a href="">here</a>.</i></p> <br>
+                        <h2 class="check-details-section-header">Payment Info</h2>
+                        <p class="check-details-section-text"><i>We accept the following methods of payment.</i></p> <br>
+                        <div class="check-details-section-payment">
+                            <img src="images/checkout/gcash.png" alt="G-Cash">
+                            <img src="images/checkout/mastercard.webp" alt="Mastercard">
+                            <img src="images/checkout/visa.png" alt="Visa">
+                            <img src="images/checkout/bpi.png" alt="BPI">
+                            <img src="images/checkout/maya.png" alt="Maya">
+                        </div>
+                    </div>
+
+                    <div class="check-details-section">
+                        <div class="check-details-section-total">
+                            <h2>SUBTOTAL</h2>
+                            <h3 id="sum-total" >Click Update Total Button</h3>
+                        </div>
+                        <div class="check-details-section-total">
+                            <h2>SHIPPING FEE</h2>
+                            <h3>Php 150.00</h3>
+                        </div> <br>
+                        <div class="check-details-section-total">
+                            <h2>TOTAL</h2>
+                            <h3>Click Check Out Items Button</h3>
+                        </div>
+                        <hr class="divider">
+                        <div class="button-container">
+                            <div class="buttons">
+                                <button onclick="checkoutAllItems()">Checkout All Items</button>
+                            </div>
+                            
+                        </div>
+
+                        <div id="checkout" class="modal">
+                            <div class="modal-content">
+                              <span class="close"></span>
+                              <p id="checkoutMessage"></p>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+        </section>
+    </section>
+
+    
+
+    <section class="sec" id="about">
+
+        <div id="about-top">
+            <img src="images/home/logo.png" id="logo-about" alt="KidsKorner Logo" style="height: 350px; width: 1300px;">
+
+            <p id="about-tagline" class="center"><i>Fun and Functional Finds for Little Ones</i></p>
+
+            <div id="buttons-about"  class="center">
+                <a href="">
+                    <div class="button-about">SIGN UP</div>
+                </a>
+
+                <a href="">
+                    <div class="button-about">SIGN IN</div>
+                </a>
+                
+                
+            </div>
+
+            <div id="about-desc"  class="center">
+                <p>
+                    KidsKorner is an e-commerce business organized by many parents wanting to share products other parents can use with their children. 
+                </p>
+            </div>
+        </div>
+        
+        
+       
+        
+        <div id="about-links">
+            <p><a href="">CUSTOMER SERVICE</a></p>
+            <a href=""><img src="images/footer-about/mail.png" alt="Email"></a>
+            <a href=""><img src="images/footer-about/facebook.png" alt="Facebook"></a>
+            <a href=""><img src="images/footer-about/phone.png" alt="Telephone"></a>
+            <p><a href="">PRIVACY POLICY</a></p>
+        </div>
+
+        <div id="copyright">
+            <p>Copyright © 2024. KidsKorner | Fun and Functional Finds for Little Ones</p>
+        </div>
+    </section>
+
+    <script src="scripts.js">
+    </script>
+</body>
+</html>
